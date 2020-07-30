@@ -4,7 +4,7 @@ require "pry"
 def reverse_each_word(string)
   string.split.collect do |value|
     value.reverse
-      # binding.pry
+      binding.pry
   end
   string.join(" ")
   # reverse_string = reverse_string.join(" ")
