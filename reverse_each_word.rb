@@ -8,8 +8,6 @@ def reverse_each_word(string)
   end
   string.join(" ")
   string
-  # reverse_string = reverse_string.join(" ")
-  # reverse_string
 end
 
 
