@@ -9,7 +9,6 @@ def reverse_each_word(string)
   end
   # string.join(" ")
   # string
-
 end
 
 
