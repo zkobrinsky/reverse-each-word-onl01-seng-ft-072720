@@ -6,4 +6,5 @@ def reverse_each_word(string)
     reverse_string.push(value.reverse)
       binding.pry
   end
+  reverse_string = reverse_string.join(" ")
 end
