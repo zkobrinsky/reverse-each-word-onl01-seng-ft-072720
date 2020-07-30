@@ -5,6 +5,7 @@ def reverse_each_word(string)
   string = string.split
   string.collect do |value|
     value.reverse
+    "hello"
     binding.pry
   end
   # string.join(" ")
