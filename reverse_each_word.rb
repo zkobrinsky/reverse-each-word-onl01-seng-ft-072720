@@ -6,8 +6,8 @@ def reverse_each_word(string)
   string.collect do |value|
     value = value.reverse
   end
+  string.join(" ")
   string
-  # string.join(" ")
   # reverse_string = reverse_string.join(" ")
   # reverse_string
 end
