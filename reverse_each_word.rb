@@ -4,11 +4,12 @@ require "pry"
 def reverse_each_word(string)
   string = string.split
   string.collect do |value|
-    "#{value.reverse}"
+    value = value.reverse
+    "#{value}"
     binding.pry
   end
-  string.join(" ")
-  string
+  # string.join(" ")
+  # string
 
 end
 
